@@ -1,0 +1,11 @@
+(module RF_SWEEP_PIZON (layer F.Cu) (tedit 5808A46C)
+  (fp_text reference REF** (at 2.9 -6.4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value RF (at 0 -5.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 -2.3) (end 0 2.4) (layer F.Cu) (width 1.2))
+  (fp_arc (start -1.5 2.5) (end 0 2.5) (angle 90) (layer F.Cu) (width 1.2))
+  (fp_arc (start 1.5 -2.4) (end 0 -2.4) (angle 89.9) (layer F.Cu) (width 1.2))
+)

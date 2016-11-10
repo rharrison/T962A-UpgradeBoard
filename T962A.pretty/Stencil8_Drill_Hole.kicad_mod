@@ -1,0 +1,12 @@
+(module Stencil8_Drill_Hole (layer F.Cu) (tedit 581DB977)
+  (fp_text reference REF** (at 0 2.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Stencil8_Drill_Hole (at 0 -2.7) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 1.275 0) (layer F.Paste) (width 0.01))
+  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 2.55) (layers *.Cu *.Mask))
+  (pad Past smd circle (at 0 0) (size 2.55 2.55) (layers F.Paste)
+    (solder_paste_margin 0.001))
+)
